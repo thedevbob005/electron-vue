@@ -50,7 +50,20 @@ module.exports = {
     name: {
       type: 'string',
       required: true,
-      message: 'Application Name'
+      message: 'Application Name',
+      default: 'your-app'
+    },
+    appid: {
+        type: 'string',
+        required: true,
+        message: 'Application Id',
+        default: 'com.example.yourapp'
+    },
+    appver: {
+        type: 'string',
+        required: true,
+        message: 'Application Version',
+        default: '0.0.1'
     },
     description: {
       type: 'string',
@@ -58,11 +71,16 @@ module.exports = {
       message: 'Project description',
       default: 'An electron-vue project'
     },
+    usesass: {
+        type: 'confirm',
+        message: 'Use Sass / Scss?',
+        required: true
+    },
     plugins: {
       type: 'checkbox',
       message: 'Select which Vue plugins to install',
-      choices: ['axios', 'vue-electron', 'vue-router', 'vuex'],
-      default: ['axios', 'vue-electron', 'vue-router', 'vuex']
+      choices: ['axios', 'vue-electron', 'vue-router', 'vuex', 'vuex-electron'],
+      default: ['axios', 'vue-electron', 'vue-router', 'vuex', 'vuex-electron']
     },
     eslint: {
       type: 'confirm',
@@ -127,10 +145,11 @@ module.exports = {
     deps (plugins) {
       let output = ''
       let dependencies = {
-        'axios': '^0.16.1',
+        'axios': '^0.18.0',
         'vue-electron': '^1.0.6',
-        'vue-router': '^2.5.3',
-        'vuex': '^2.3.1'
+        'vue-router': '^3.0.1',
+        'vuex': '^3.0.1',
+        'vuex-electron': '^1.0.0'
       }
 
       if (Object.keys(plugins).length > 0) output += ',\n'
