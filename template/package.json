@@ -77,7 +77,7 @@
   },
 {{/if_eq}}
   "dependencies": {
-    "vue": "^2.5.16"{{deps plugins}}
+    "vue": "^2.6.11"{{deps plugins}}
   },
   "devDependencies": {
     "ajv": "^6.5.0",
@@ -91,18 +91,18 @@
     "cfonts": "^2.1.2",
     "chalk": "^2.4.1",
     "copy-webpack-plugin": "^4.5.1",
-    "cross-env": "^5.1.6",
-    "css-loader": "^0.28.11",
+    "cross-env": "^7.0.0",
+    "css-loader": "^3.4.2",
     "del": "^3.0.0",
     "devtron": "^1.4.0",
-    "electron": "^2.0.4",
-    "electron-debug": "^1.5.0",
+    "electron": "^8.0.0",
+    "electron-debug": "^3.0.1",
     "electron-devtools-installer": "^2.2.4",
     {{#if_eq builder 'packager'}}
-    "electron-packager": "^12.1.0",
-    "electron-rebuild": "^1.8.1",
+    "electron-packager": "^14.2.0",
+    "electron-rebuild": "^1.10.0",
     {{else}}
-    "electron-builder": "^20.19.2",
+    "electron-builder": "^22.3.2",
     {{/if_eq}}
     {{#eslint}}
     "babel-eslint": "^8.2.3",
@@ -139,7 +139,7 @@
     {{/if}}
     {{#if e2e}}
     "require-dir": "^1.0.0",
-    "spectron": "^3.8.0",
+    "spectron": "^10.0.1",
     {{/if}}
     {{#testing unit e2e}}
     "babel-plugin-istanbul": "^4.1.6",
@@ -149,15 +149,15 @@
     "multispinner": "^0.2.1",
     "node-loader": "^0.6.0",
     {{#if usesass}}
-    "node-sass": "^4.9.2",
-    "sass-loader": "^7.0.3",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
     {{/if}}
-    "style-loader": "^0.21.0",
-    "url-loader": "^1.0.1",
+    "style-loader": "^1.1.3",
+    "url-loader": "^3.0.0",
     "vue-html-loader": "^1.2.4",
-    "vue-loader": "^15.2.4",
-    "vue-style-loader": "^4.1.0",
-    "vue-template-compiler": "^2.5.16",
+    "vue-loader": "^15.8.3",
+    "vue-style-loader": "^4.0.1",
+    "vue-template-compiler": "^2.6.11",
     "webpack-cli": "^3.0.8",
     "webpack": "^4.15.1",
     "webpack-dev-server": "^3.1.4",
