@@ -89,7 +89,7 @@ Take a look at some of the amazing projects built with electron-vue. Want to hav
 * [**Space-Snake**](https://github.com/ilyagru/Space-Snake): A Desktop game built with Electron and Vue.js.
 * [**Forrest**](https://github.com/stefanjudis/forrest): An npm scripts desktop client
 * [**miikun**](https://github.com/hiro0218/miikun): A Simple Markdown Editor
-* [**Dakika**](https://github.com/Madawar/Dakika): A minute taking application that makes writing minutes a breeze
+* [**Dakika**](https://github.com/raj347/Dakika): A minute taking application that makes writing minutes a breeze
 * [**Dynamoc**](https://github.com/ieiayaobb/dynamoc): Dynamoc is a GUI client for dynamodb-local, dynalite and AWS dynamodb
 * [**Dockeron**](https://github.com/dockeron/dockeron): A dockeron project, built on Electron + Vue.js for Docker
 * [**Easysubs**](https://github.com/matiastucci/easysubs): Download subtitles in a very fast and simple way
@@ -108,3 +108,12 @@ Take a look at some of the amazing projects built with electron-vue. Want to hav
 * [**ImapSync Client**](https://github.com/ridaamirini/ImapSyncClient): It's only an Internet Message Access Protocol Synchronization Client
 * [**Hve**](https://github.com/hellohve/hve): A static blog client tool you may like.
 * [**MarkdownFox**](https://github.com/lx4r/markdownfox): A simple Markdown viewer with auto update and PDF export.
+* [**Smart DOCSE**](https://github.com/shirshak55/smart-docse): A generic app which ability to display news, contact etc.
+* [**Cleaver**](https://getcleaver.com/): Cleaver helps you provision servers ready for deploying your web apps with zero downtime - for free!
+* [**XPanel**](https://github.com/krustnic/xpanel): XAMPP control panel alternative built with Electron & Vue.js
+* [**Hexo-Client**](https://github.com/gaoyoubo/hexo-client): A hexo client powered by electron-vue.
+* [**YT.Downloader**](https://github.com/myazarc/ytdownloader): Youtube Video Downloader&Converter and Play Music, built with Electron & Vue.js.
+* [**BMFont-JS**](https://github.com/elisaday/bmfont-js): BMFont-js is a bitmap font generator, built with Electron & Vue.js.
+* [**YouGet**](https://github.com/ahmetzeybek/YouGet): YouGet - YouTube Video/Playlist Downloader/Cutter - MP3 Converter
+* [**Asar UI**](https://github.com/myazarc/AsarUI): UI for Asar Pack, built with Electron & Vue.js.
+* [**Leeze**](https://github.com/dayinji/Leeze): A Receipt Record App, built with Electron & Vue.js.
